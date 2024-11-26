@@ -1,7 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b669569c-63ba-443e-88ab-b5456e88c9af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/api/users/route.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/create-account/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/create-account/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/login/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/login/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sms/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/sms/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/social-login.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/constants.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icon-github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/window.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="PropertiesComponent">{}</component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2pMt5QjbelcVT6eDiElLy5bw6l9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yejin/Documents/dev/next14-carrot-market",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/yejin/Documents/dev/next14-carrot-market/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PS-242.21829.154" />
+        <option value="bundled-php-predefined-a98d8de5180a-4d9f4c849d09-com.jetbrains.php.sharedIndexes-PS-242.21829.154" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b669569c-63ba-443e-88ab-b5456e88c9af" name="Changes" comment="" />
+      <created>1732587589049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732587589049</updated>
+      <workItem from="1732587590326" duration="1413000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
 </project>
