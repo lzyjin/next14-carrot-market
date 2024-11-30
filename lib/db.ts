@@ -12,7 +12,7 @@ async function test() {
     }
   });
 
-  console.log(token);
+  // console.log(token);
 }
 
 test();

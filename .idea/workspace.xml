@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b669569c-63ba-443e-88ab-b5456e88c9af" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/db.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b669569c-63ba-443e-88ab-b5456e88c9af" name="Changes" comment="~ #7 Prisma">
+      <change afterPath="$PROJECT_DIR$/app/profile/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/session.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/users/route.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/users/route.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/create-account/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/create-account/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/login/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/login/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/input.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/db.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/db.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -67,7 +72,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;rearrange.code.on.save&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.prisma&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/yejin/Documents/dev/next14-carrot-market/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -101,12 +106,39 @@
       <workItem from="1732587590326" duration="5172000" />
       <workItem from="1732601608441" duration="1108000" />
       <workItem from="1732602726678" duration="9598000" />
-      <workItem from="1732668225117" duration="6524000" />
+      <workItem from="1732668225117" duration="10905000" />
+      <workItem from="1732696667699" duration="644000" />
+      <workItem from="1732698689227" duration="24817000" />
+      <workItem from="1732853423992" duration="13378000" />
     </task>
+    <task id="LOCAL-00001" summary="~ #7 Prisma">
+      <option name="closed" value="true" />
+      <created>1732675734161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732675734161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="~ #7 Prisma" />
+    <option name="LAST_COMMIT_MESSAGE" value="~ #7 Prisma" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
