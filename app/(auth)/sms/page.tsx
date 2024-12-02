@@ -2,7 +2,7 @@
 
 import Input from "@/components/input";
 import Button from "@/components/button";
-import {smsLogIn} from "@/app/sms/actions";
+import {smsLogIn} from "@/app/(auth)/sms/actions";
 import {useFormState} from "react-dom";
 
 const initialState = {
