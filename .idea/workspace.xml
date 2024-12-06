@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b669569c-63ba-443e-88ab-b5456e88c9af" name="Changes" comment="#11 Product Upload, #13 Caching">
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/life/loading.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/posts/[id]/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/posts/[id]/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/like-button.tsx" afterDir="false" />
+    <list default="true" id="b669569c-63ba-443e-88ab-b5456e88c9af" name="Changes" comment="eslint, typescript ignore error 코드 주석">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/life/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/life/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(auth)/create-account/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/(auth)/create-account/actions.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +111,7 @@
       <workItem from="1732698689227" duration="24817000" />
       <workItem from="1732853423992" duration="82458000" />
       <workItem from="1733371248533" duration="41283000" />
+      <workItem from="1733477544980" duration="1242000" />
     </task>
     <task id="LOCAL-00001" summary="~ #7 Prisma">
       <option name="closed" value="true" />
@@ -149,7 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733450125155</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="#14 optimistic updates">
+      <option name="closed" value="true" />
+      <created>1733477646798</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733477646798</updated>
+    </task>
+    <task id="LOCAL-00006" summary="eslint, typescript ignore error 코드 주석">
+      <option name="closed" value="true" />
+      <created>1733483336356</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733483336356</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +183,9 @@
     <MESSAGE value="~ #8 middleware" />
     <MESSAGE value="#10 Products" />
     <MESSAGE value="#11 Product Upload, #13 Caching" />
-    <option name="LAST_COMMIT_MESSAGE" value="#11 Product Upload, #13 Caching" />
+    <MESSAGE value="#14 optimistic updates" />
+    <MESSAGE value="eslint, typescript ignore error 코드 주석" />
+    <option name="LAST_COMMIT_MESSAGE" value="eslint, typescript ignore error 코드 주석" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -3,7 +3,8 @@ import ProductList from "@/components/product-list";
 import {Prisma} from "@prisma/client";
 import Link from "next/link";
 import {PlusIcon} from "@heroicons/react/16/solid";
-import {revalidatePath, unstable_cache as nextCache} from "next/cache";
+// import {revalidatePath, unstable_cache as nextCache} from "next/cache";
+import {revalidatePath} from "next/cache";
 
 export const metadata = {
   title: "home",
@@ -12,7 +13,7 @@ export const metadata = {
 // export const dynamic = "force-dynamic";
 export const revalidate = 60;
 
-const getCachedProducts = nextCache(getInitialProducts, ["home-products"]);
+// const getCachedProducts = nextCache(getInitialProducts, ["home-products"]);
 
 async function getInitialProducts() {
   const products = await db.product.findMany({

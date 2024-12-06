@@ -38,6 +38,7 @@ async function getPost(id: number) {
     return post;
 
   } catch (e) {
+    console.log(e);
     return null;
   }
 }

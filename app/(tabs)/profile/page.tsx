@@ -29,13 +29,13 @@ async function Username() {
 }
 
 export default async function Profile() {
-  const user = await getUser();
-
   const logOut = async () => {
     "use server";
 
     const session = await getSession();
+
     session.destroy();
+
     redirect("/");
   };
 

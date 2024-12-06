@@ -12,7 +12,7 @@ interface LikeButtonProps {
 }
 
 export default function LikeButton({isLiked, likeCount, postId}: LikeButtonProps) {
-  const [state, updateFn] = useOptimistic({isLiked, likeCount}, (previousState, payload) => {
+  const [state, updateFn] = useOptimistic({isLiked, likeCount}, (previousState) => {
     return {
       isLiked: !previousState.isLiked,
       likeCount: previousState.isLiked ? previousState.likeCount - 1 : previousState.likeCount + 1,

@@ -19,7 +19,7 @@ export const likePost = async (postId: number) => {
     revalidateTag(`like-status-${postId}`);
 
   } catch (e) {
-
+    console.log(e);
   }
 };
 
@@ -40,6 +40,6 @@ export const dislikePost = async (postId: number) => {
     revalidateTag(`like-status-${postId}`);
 
   } catch (e) {
-
+    console.log(e);
   }
 };

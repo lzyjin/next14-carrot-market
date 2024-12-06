@@ -17,7 +17,7 @@ export default function AddProduct() {
   const [preview, setPreview] = useState("");
   const [uploadUrl, setUploadUrl] = useState("");
   const [file, setFile] = useState<File | null>(null);
-  const {register, handleSubmit, setValue, setError, formState: {errors}} = useForm<ProductType>({
+  const {register, handleSubmit, setValue, formState: {errors}} = useForm<ProductType>({
     resolver: zodResolver(productSchema),
   });
 

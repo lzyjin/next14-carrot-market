@@ -1,6 +1,5 @@
 import {notFound} from "next/navigation";
 import db from "@/lib/db";
-import getSession from "@/lib/session";
 import Link from "next/link";
 import {formatToWon} from "@/lib/utils";
 import {UserIcon} from "@heroicons/react/16/solid";
@@ -16,6 +15,7 @@ export async function generateMetadata({params}: { params: {id: string} }) {
 }
 
 async function getIsOwner(userId: number) {
+  console.log(userId);
   // const session = await getSession();
   //
   // if (session.id) {
