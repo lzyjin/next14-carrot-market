@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b669569c-63ba-443e-88ab-b5456e88c9af" name="Changes" comment="#10 Products">
-      <change afterPath="$PROJECT_DIR$/app/products/add/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/products/add/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/products/add/schema.ts" afterDir="false" />
+    <list default="true" id="b669569c-63ba-443e-88ab-b5456e88c9af" name="Changes" comment="#11 Product Upload, #13 Caching">
+      <change afterPath="$PROJECT_DIR$/app/(tabs)/life/loading.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/posts/[id]/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/posts/[id]/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/like-button.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/products/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/home/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/products/loading.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/home/loading.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/products/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/home/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/profile/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/profile/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/products/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/products/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/input.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/input.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/list-product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/list-product.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/product-list.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/product-list.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/tab-bar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/tab-bar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware.ts" beforeDir="false" afterPath="$PROJECT_DIR$/middleware.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/life/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/life/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +115,7 @@
       <workItem from="1732696667699" duration="644000" />
       <workItem from="1732698689227" duration="24817000" />
       <workItem from="1732853423992" duration="82458000" />
-      <workItem from="1733371248533" duration="24601000" />
+      <workItem from="1733371248533" duration="41283000" />
     </task>
     <task id="LOCAL-00001" summary="~ #7 Prisma">
       <option name="closed" value="true" />
@@ -152,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733143951030</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="#11 Product Upload, #13 Caching">
+      <option name="closed" value="true" />
+      <created>1733450125155</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733450125155</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,7 +170,8 @@
     <MESSAGE value="~ #7 Prisma" />
     <MESSAGE value="~ #8 middleware" />
     <MESSAGE value="#10 Products" />
-    <option name="LAST_COMMIT_MESSAGE" value="#10 Products" />
+    <MESSAGE value="#11 Product Upload, #13 Caching" />
+    <option name="LAST_COMMIT_MESSAGE" value="#11 Product Upload, #13 Caching" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
