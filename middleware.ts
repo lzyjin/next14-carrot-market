@@ -35,7 +35,7 @@ export async function middleware(request: NextRequest) {
   } else {
     // 이동하려는 페이지가 public url이면
     if(exists) {
-      return NextResponse.redirect(new URL("/products", request.url));
+      return NextResponse.redirect(new URL("/home", request.url));
 
       // redirect 대신 404페이지인 not found 페이지를 보여주는 방법도 있다.
       // notFound();
